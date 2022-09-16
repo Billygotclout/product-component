@@ -21,7 +21,7 @@ main {
   overflow: hidden;
 }
 
-.primary-image img {
+.primary-image .img-m {
   width: 100%;
   height: auto;
 }
@@ -60,6 +60,9 @@ main {
   margin-bottom: 15px;
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
+}
+.img-d{
+  display: none;
 }
 .slashed-price {
   text-decoration: line-through;
@@ -113,6 +116,7 @@ main {
     height: 100%;
     overflow: hidden;
     position: relative;
+    display: block;
   }
   .follow-up-text {
 margin-right: 30px;
